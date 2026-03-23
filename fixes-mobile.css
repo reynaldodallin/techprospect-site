@@ -1,0 +1,78 @@
+/* fixes-mobile.css — SEOContent.ai Mobile Fixes */
+
+/* Evita scroll horizontal global */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* ---- MOBILE PORTRAIT (max 767px) ---- */
+@media (max-width: 767px) {
+
+  /* Header fixo e sempre visivel */
+  .header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100% !important;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+  }
+
+  /* Compensa altura do header fixo */
+  #main-content {
+    padding-top: 72px !important;
+  }
+
+  /* Esconde botao Start Free Trial no header */
+  .header__actions .btn {
+    display: none !important;
+  }
+
+  /* Mantem theme toggle visivel */
+  .header__actions .theme-toggle {
+    display: flex !important;
+  }
+
+  /* Cards About - Dual AI, SEO Intelligence, WordPress Native - 1 coluna */
+  #page-about .features-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+  }
+
+  #page-about .feature-card {
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Values grid About - 1 coluna */
+  #page-about .values-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+  }
+
+  /* About hero - 1 coluna */
+  .about-hero {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Padding topo About para nao ficar atras do header fixo */
+  #page-about .page-hero {
+    padding-top: calc(4rem + 72px) !important;
+  }
+}
+
+/* ---- MOBILE LANDSCAPE - header volta a sticky ---- */
+@media (max-width: 767px) and (orientation: landscape) {
+  .header {
+    position: sticky !important;
+    top: 0;
+  }
+  #main-content {
+    padding-top: 0 !important;
+  }
+}
