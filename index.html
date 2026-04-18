@@ -1,1468 +1,338 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR" data-theme="dark">
 <head>
-<!--
-   ______                            __
-  / ____/___  ____ ___  ____  __  __/ /____  _____
- / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
-/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
-\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
-                    /_/
-        Created with Perplexity Computer
-        https://www.perplexity.ai/computer
--->
-
-<!-- Perplexity Computer Attribution — SEO Meta Tags -->
-<meta name="generator" content="Perplexity Computer">
-<meta name="author" content="Perplexity Computer">
-<meta property="og:see_also" content="https://www.perplexity.ai/computer">
-<link rel="author" href="https://www.perplexity.ai/computer">
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SEOContent.ai — AI-Powered SEO Content Generation Platform</title>
-<meta name="description" content="Generate SEO-optimized articles, product reviews, and authority content in 60 seconds. 6 content types, multi-language, WordPress integration. Start free.">
+<title>TechProspect — Prospecção com IA, WhatsApp e Funis</title>
+<meta name="description" content="Plataforma de prospecção com IA: extratores do Google Maps, Instagram e CNPJ, disparos no WhatsApp, funis e CRM Kanban. Ative, pareie e comece em minutos.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://seocontent.ai/">
+<meta name="author" content="TechProspect by TechSites">
+<meta name="theme-color" content="#0B1221">
+<link rel="canonical" href="https://techprospect.pages.dev/">
 
-<!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="SEOContent.ai — AI-Powered SEO Content Generation Platform">
-<meta property="og:description" content="Generate SEO-optimized articles, product reviews, and authority content in 60 seconds. 6 content types, multi-language, WordPress integration.">
-<meta property="og:image" content="./assets/images/seocontent-hero.webp">
-<meta property="og:url" content="https://seocontent.ai/">
-<meta property="og:site_name" content="SEOContent.ai">
+<meta property="og:title" content="TechProspect — Prospecção com IA que fecha negócios">
+<meta property="og:description" content="IA + WhatsApp + Google Maps + Instagram + CNPJ. Capte, qualifique e feche leads em piloto automático. Sem VPS, sem domínio.">
+<meta property="og:image" content="./assets/images/og-cover.svg">
+<meta property="og:url" content="https://techprospect.pages.dev/">
+<meta property="og:site_name" content="TechProspect">
+<meta property="og:locale" content="pt_BR">
 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="SEOContent.ai — AI-Powered SEO Content Generation Platform">
-<meta name="twitter:description" content="Generate SEO-optimized articles, product reviews, and authority content in 60 seconds.">
-<meta name="twitter:image" content="./assets/images/seocontent-hero.webp">
+<meta name="twitter:title" content="TechProspect — Prospecção com IA que fecha negócios">
+<meta name="twitter:description" content="IA + WhatsApp + Google Maps + Instagram + CNPJ. Capte, qualifique e feche leads em piloto automático.">
+<meta name="twitter:image" content="./assets/images/og-cover.svg">
 
-<!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232563EB'/%3E%3Cpath d='M8 22V10h3v12H8zm5-4V10h3v8h-3zm5 2V10h3v10h-3z' fill='white'/%3E%3Ccircle cx='22' cy='10' r='4' fill='none' stroke='%2310B981' stroke-width='2'/%3E%3Cline x1='25' y1='13' x2='28' y2='16' stroke='%2310B981' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
-<!-- Fonts -->
-<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800,900&f[]=satoshi@300,400,500,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/base.css">
+<link rel="stylesheet" href="./assets/css/style.css">
 
-<!-- Stylesheets -->
-<link rel="stylesheet" href="./base.css">
-<link rel="stylesheet" href="./style.css">
-<link rel="stylesheet" href="./fixes-mobile.css">
-
-<!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Organization",
-      "name": "SEOContent.ai",
-      "url": "https://seocontent.ai",
-      "logo": "https://seocontent.ai/logo.svg",
-      "description": "AI-powered SEO content generation platform",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "support@seocontent.ai",
-        "contactType": "customer support"
-      }
+      "name": "TechProspect",
+      "url": "https://techprospect.pages.dev/",
+      "logo": "https://techprospect.pages.dev/assets/images/favicon.svg",
+      "parentOrganization": { "@type": "Organization", "name": "TechSites" },
+      "contactPoint": { "@type": "ContactPoint", "email": "contato@techprospect.com.br", "contactType": "customer support" }
     },
     {
       "@type": "SoftwareApplication",
-      "name": "SEOContent.ai",
+      "name": "TechProspect",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Web",
-      "description": "Generate SEO-optimized articles, product reviews, and authority content in 60 seconds. 6 content types, multi-language support, WordPress integration.",
-      "offers": [
-        { "@type": "Offer", "name": "Starter Pack", "price": "29", "priceCurrency": "USD" },
-        { "@type": "Offer", "name": "Growth Pack", "price": "69", "priceCurrency": "USD" },
-        { "@type": "Offer", "name": "Pro Monthly", "price": "49", "priceCurrency": "USD", "billingIncrement": "month" },
-        { "@type": "Offer", "name": "Business Monthly", "price": "129", "priceCurrency": "USD", "billingIncrement": "month" }
-      ],
-      "creator": {
-        "@type": "SoftwareApplication",
-        "name": "Perplexity Computer",
-        "url": "https://www.perplexity.ai/computer"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How do credits work?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Each credit generates one complete article. The length and depth depend on the content type you choose. Credits never expire for one-time packs." }
-        },
-        {
-          "@type": "Question",
-          "name": "What content types are available?",
-          "acceptedAnswer": { "@type": "Answer", "text": "SEOContent.ai offers 6 content types: Standard SEO Article, Product Review, Product Comparison, Best X for Y, Affiliate Roundup, and Authority Post." }
-        },
-        {
-          "@type": "Question",
-          "name": "Which languages are supported?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Currently English and Portuguese (PT-BR), with auto-detect functionality. More languages are coming soon." }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I publish directly to WordPress?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes! SEOContent.ai integrates directly with WordPress. Connect your site and publish articles with one click, complete with formatting and images." }
-        }
-      ]
+      "description": "Plataforma SaaS de prospecção com IA: extratores (Google Maps, Instagram, CNPJ), WhatsApp, funis, CRM Kanban e qualificação 24/7.",
+      "offers": { "@type": "AggregateOffer", "priceCurrency": "BRL", "lowPrice": "97", "highPrice": "297" },
+      "publisher": { "@type": "Organization", "name": "TechSites" }
     }
   ]
 }
 </script>
+<script>
+/* Theme bootstrap — evita FOUC. Padrão sempre dark quando nada salvo. */
+(function(){
+  try {
+    var t = localStorage.getItem('tp-theme');
+    document.documentElement.setAttribute('data-theme', t === 'light' ? 'light' : 'dark');
+  } catch(e) {
+    document.documentElement.setAttribute('data-theme','dark');
+  }
+})();
+</script>
+<script>
+/* TechSites WYSIWYG config — usado pelo editor local techsites-editor.js.
+   O snippet oficial do Worker v2 (PROMPT-WYSIWYG-SETUP.md) depende de
+   /editor-bundle.js no Worker, que hoje retorna 404. Mantemos esta config
+   exposta em window.__TECHSITES_EDITOR__ para quando a infra estiver pronta
+   e para qualquer integração manual via /api/save-template. Não modificar. */
+(function(){
+  var SITE_ID = 'techprospect-review';
+  var WORKER_URL = 'https://techsites-editor-api.reynaldodallin.workers.dev';
+  window.__TECHSITES_EDITOR__ = {
+    siteId: SITE_ID,
+    workerUrl: WORKER_URL,
+    saveEndpoint: WORKER_URL + '/api/save-template',
+    githubOwner: 'reynaldodallin',
+    githubRepo: 'techprospect-site',
+    githubBranch: 'main'
+  };
+  if (new URLSearchParams(window.location.search).get('edit') === '1') {
+    try { localStorage.setItem('techsites_auth','1'); } catch(e) {}
+  }
+})();
+</script>
 </head>
 <body>
 
-<!-- Skip Link -->
-<a href="#main-content" class="skip-link">Skip to content</a>
+<a href="#top" class="skip-link">Pular para o conteúdo</a>
 
-<!-- ============ HEADER ============ -->
-<header class="header" role="banner">
-  <div class="container header__inner">
-    <a href="#home" class="header__logo" aria-label="SEOContent.ai home">
-      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <rect width="36" height="36" rx="8" fill="currentColor" opacity="0.08"/>
-        <path d="M7 11h4v2H9v2h2v2H7v-6z" fill="var(--color-primary)"/>
-        <path d="M12 11h4v2h-2v2h2v2h-4v-6z" fill="var(--color-primary)" opacity="0.7"/>
-        <path d="M17 11h4v6h-4v-2h2v-2h-2v-2z" fill="var(--color-primary)" opacity="0.5"/>
-        <circle cx="27" cy="14" r="5" stroke="var(--color-primary)" stroke-width="2" fill="none"/>
-        <line x1="30.5" y1="18" x2="33" y2="20.5" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round"/>
-        <path d="M25 13l1.5 1.5L28 12" stroke="var(--color-accent, #10B981)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-      SEOContent<span style="color: var(--color-primary);">.ai</span>
+<header class="nav" role="banner">
+  <div class="container nav__inner">
+    <a href="./" class="brand" aria-label="TechProspect — Página inicial">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#6366f1"/></linearGradient></defs><rect width="32" height="32" rx="8" fill="url(#g)"/><path d="M8 22l4-10 4 6 3-4 5 8H8z" fill="#fff" opacity=".95"/></svg>
+      </span>
+      <span class="brand__name">Tech<span>Prospect</span></span>
     </a>
-
-    <nav class="header__nav" aria-label="Main navigation">
-      <a href="#home" class="active">Home</a>
-      <a href="#features">Features</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#how-it-works">How It Works</a>
-      <a href="#use-cases">Use Cases</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="./" aria-current="page">Home</a>
+      <a href="./como-funciona.html">Como funciona</a>
+      <a href="./recursos.html">Recursos</a>
+      <a href="./planos.html">Planos</a>
+      <a href="./cases.html">Cases</a>
+      <a href="./faq.html">FAQ</a>
+      <a href="./contato.html">Contato</a>
     </nav>
-
-    <div class="header__actions">
-      <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-      </button>
-      <a href="#pricing" class="btn btn--primary btn--sm" style="display:none" id="header-cta">Start Free Trial</a>
-      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-      </button>
+    <div class="nav__cta">
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Alternar tema" aria-pressed="false" title="Alternar tema">
+      <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+    </button>
+<a href="./contato.html" class="btn btn--ghost">Entrar</a>
+      <a href="./planos.html" class="btn btn--primary">Começar agora</a>
     </div>
+    <button class="nav__burger" aria-label="Abrir menu" aria-expanded="false" id="burger">
+      <span></span><span></span><span></span>
+    </button>
   </div>
-
 </header>
 
-<!-- Mobile Nav Drawer (outside header to avoid stacking context from backdrop-filter) -->
-<nav class="mobile-nav" aria-label="Mobile navigation">
-  <button class="mobile-nav__close" aria-label="Close menu">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-  </button>
-  <a href="#home">Home</a>
-  <a href="#features">Features</a>
-  <a href="#pricing">Pricing</a>
-  <a href="#how-it-works">How It Works</a>
-  <a href="#use-cases">Use Cases</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-  <a href="#pricing" class="btn btn--primary" style="margin-top: var(--space-4); text-align:center;">Start Free Trial</a>
-</nav>
+<main id="top">
 
-<!-- Mobile Backdrop -->
-<div class="mobile-backdrop" aria-hidden="true"></div>
-
-<main id="main-content">
-
-<!-- =====================================================================
-     PAGE 1: HOME
-     ===================================================================== -->
-<div class="page active" id="page-home" data-page="home">
-
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container hero__inner">
-      <div class="hero__content">
-        <h1 class="hero__title">AI-Powered SEO Content That <span>Actually Ranks</span></h1>
-        <p class="hero__subtitle">Generate optimized articles, product reviews, and authority content in 60 seconds. Built for marketers who measure results.</p>
-        <div class="hero__actions">
-          <a href="#pricing" class="btn btn--primary btn--lg">Start Free Trial</a>
-          <a href="#how-it-works" class="btn btn--secondary btn--lg" style="border-color: rgba(255,255,255,0.2); color: #fff;">See How It Works</a>
-        </div>
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="orb orb--a"></div>
+    <div class="orb orb--b"></div>
+    <div class="grid-lines"></div>
+  </div>
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <span class="badge" data-editable="text">⚡ Ative e use — sem VPS, sem domínio</span>
+      <h1 data-editable="text">Prospecção com <span class="grad">IA que fecha</span> negócios no WhatsApp.</h1>
+      <p class="lead" data-editable="rich">Capte leads do Google Maps, Instagram e CNPJ, qualifique com IA 24/7 e dispare campanhas em texto, áudio, imagem ou PDF — tudo num painel só, pronto para usar.</p>
+      <div class="hero__ctas">
+        <a href="./planos.html" class="btn btn--primary btn--lg" data-editable="link">Começar em 3 passos →</a>
+        <a href="./como-funciona.html" class="btn btn--outline btn--lg" data-editable="link">Ver como funciona</a>
       </div>
-      <div class="hero__image fade-in">
-        <picture>
-          <source srcset="./assets/images/seocontent-hero.webp" type="image/webp">
-          <img src="./assets/images/seocontent-hero.webp" alt="SEOContent.ai dashboard showing AI-generated SEO content with optimization scores" width="600" height="400" loading="eager" decoding="async">
-        </picture>
-      </div>
+      <ul class="hero__trust">
+        <li data-editable="text">🔒 Garantia de 7 dias</li>
+        <li data-editable="text">☁️ 100% em nuvem</li>
+        <li data-editable="text">🚫 Sem fidelidade</li>
+      </ul>
     </div>
-  </section>
-
-  <!-- Trust Bar -->
-  <section class="trust-bar" aria-label="Trusted integrations">
-    <div class="container">
-      <p class="trust-bar__label">Trusted by 500+ content teams worldwide</p>
-      <div class="trust-bar__logos">
-        <div class="trust-bar__logo">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M21.47 2.18A1 1 0 0020.7 2H3.3a1 1 0 00-.77.18 1 1 0 00-.35.72L1 20.1a1 1 0 00.27.78A1 1 0 002 21.1h4.4l.93-4.84h3.23L9.6 21.1h4.4l1-4.84h3.53l-.93 4.84H22a1 1 0 00.73-.24 1 1 0 00.27-.78L21.82 2.9a1 1 0 00-.35-.72zM10.15 14.26l.93-4.84h2.84l-.93 4.84z"/></svg>
-          WordPress
+    <div class="hero__visual">
+      <div class="mock">
+        <div class="mock__head">
+          <span></span><span></span><span></span>
+          <em>painel.techprospect</em>
         </div>
-        <div class="trust-bar__logo">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M2 2v20h20V2H2zm18.1 18.1H3.9V3.9h16.2v16.2zM12 6a6 6 0 100 12 6 6 0 000-12zm0 10a4 4 0 110-8 4 4 0 010 8z"/></svg>
-          WooCommerce
-        </div>
-        <div class="trust-bar__logo">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 12l10 10 10-10L12 2zm0 3l7 7-7 7-7-7 7-7z"/></svg>
-          Yoast SEO
-        </div>
-        <div class="trust-bar__logo">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16v16H4V4zm2 2v12h12V6H6zm3 3h6v2H9V9zm0 4h6v2H9v-2z"/></svg>
-          n8n
+        <div class="mock__body">
+          <div class="kpi">
+            <div class="kpi__item"><strong data-editable="text">2.847</strong><small data-editable="text">Leads capturados</small></div>
+            <div class="kpi__item"><strong data-editable="text">61%</strong><small data-editable="text">Taxa de resposta</small></div>
+            <div class="kpi__item"><strong data-editable="text">342</strong><small data-editable="text">Qualificados por IA</small></div>
+          </div>
+          <div class="chat">
+            <div class="bubble bubble--in">Olá! Vi que a sua pizzaria usa iFood. Posso mostrar como dobrar o ticket médio?</div>
+            <div class="bubble bubble--out">Pode sim 👍</div>
+            <div class="bubble bubble--in">Perfeito! Te mando um áudio de 30s com o plano.</div>
+            <div class="typing" aria-hidden="true"><span></span><span></span><span></span></div>
+          </div>
+          <div class="tag">IA qualificando em tempo real</div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Features Grid -->
-  <section class="section section--light" aria-labelledby="features-heading">
-    <div class="container">
-      <div class="section__header section__header--center fade-in">
-        <span class="section__label">Core Features</span>
-        <h2 class="section__title" id="features-heading">Everything You Need to Scale SEO Content</h2>
-        <p class="section__desc" style="margin-inline: auto;">Six powerful modes designed to produce high-ranking content across every format your strategy demands.</p>
-      </div>
-      <div class="features-grid">
-        <div class="feature-card fade-in">
-          <div class="feature-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          </div>
-          <h3 class="feature-card__title">Keyword Mode</h3>
-          <p class="feature-card__desc">Enter any keyword and let our AI research the SERP, analyze top competitors, and generate a fully optimized article targeting that term.</p>
-        </div>
-        <div class="feature-card fade-in">
-          <div class="feature-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-          </div>
-          <h3 class="feature-card__title">Viral URL Mode</h3>
-          <p class="feature-card__desc">Paste any viral URL and transform it into unique, SEO-optimized content that captures the same topic with your own angle and voice.</p>
-        </div>
-        <div class="feature-card fade-in">
-          <div class="feature-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-          </div>
-          <h3 class="feature-card__title">6 Content Types</h3>
-          <p class="feature-card__desc">Standard SEO articles, product reviews, comparisons, "Best X for Y" roundups, affiliate content, and authority posts — all pre-optimized.</p>
-        </div>
-        <div class="feature-card fade-in">
-          <div class="feature-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          </div>
-          <h3 class="feature-card__title">Multi-Language</h3>
-          <p class="feature-card__desc">Generate content in English and Portuguese (PT-BR) with automatic language detection. Expand your reach to international markets effortlessly.</p>
-        </div>
-        <div class="feature-card fade-in">
-          <div class="feature-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-          </div>
-          <h3 class="feature-card__title">SEO Audit</h3>
-          <p class="feature-card__desc">Run read-only SEO audits on any URL. Get detailed analysis of on-page factors, keyword density, meta tags, and content structure.</p>
-        </div>
-        <div class="feature-card fade-in">
-          <div class="feature-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
-          </div>
-          <h3 class="feature-card__title">WordPress Publishing</h3>
-          <p class="feature-card__desc">Connect your WordPress site and publish directly from SEOContent.ai. Articles go live with proper formatting, images, and meta data.</p>
-        </div>
-      </div>
+<section class="stripe">
+  <div class="container stripe__grid">
+    <div><strong data-editable="text">+50 mil</strong><span data-editable="text">leads gerados</span></div>
+    <div><strong data-editable="text">24/7</strong><span data-editable="text">qualificação automática</span></div>
+    <div><strong data-editable="text">3 passos</strong><span data-editable="text">para começar</span></div>
+    <div><strong data-editable="text">7 dias</strong><span data-editable="text">garantia total</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <header class="sec-head">
+      <span class="eyebrow" data-editable="text">Como funciona</span>
+      <h2 data-editable="text">Do zero ao primeiro "sim" em <span class="grad">3 passos</span>.</h2>
+      <p data-editable="rich">Tudo roda em nuvem. Você assina, pareia o WhatsApp e começa a conversar com leads quentes.</p>
+    </header>
+    <ol class="steps">
+      <li>
+        <div class="steps__num">01</div>
+        <h3 data-editable="text">Pareie seu WhatsApp</h3>
+        <p data-editable="rich">Conecte em segundos, sem VPS nem domínio. Todo o pareamento é feito pelo painel.</p>
+      </li>
+      <li>
+        <div class="steps__num">02</div>
+        <h3 data-editable="text">Extraia leads reais</h3>
+        <p data-editable="rich">Google Maps, Instagram e CNPJ com filtros por CNAE, porte, segmento e região.</p>
+      </li>
+      <li>
+        <div class="steps__num">03</div>
+        <h3 data-editable="text">Ative a IA e venda</h3>
+        <p data-editable="rich">Funis, prompts e sequências com texto, áudio, imagem ou PDF. A IA aborda, qualifica e entrega leads prontos.</p>
+      </li>
+    </ol>
+    <p style="text-align:center;margin-top:30px"><a href="./como-funciona.html" class="btn btn--outline" data-editable="link">Entender cada passo em detalhes →</a></p>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <header class="sec-head">
+      <span class="eyebrow" data-editable="text">Recursos</span>
+      <h2 data-editable="text">Tudo que você precisa para <span class="grad">prospectar em escala</span>.</h2>
+      <p data-editable="rich">Extratores, IA, WhatsApp, funis e CRM Kanban no mesmo painel.</p>
+    </header>
+    <div class="features">
+      <article class="feature">
+        <div class="feature__icon" style="--c1:#22d3ee;--c2:#3b82f6" aria-hidden="true">📍</div>
+        <h3 data-editable="text">Extrator Google Maps</h3>
+        <p data-editable="rich">Encontre milhares de empresas locais com telefone, site e categoria.</p>
+      </article>
+      <article class="feature">
+        <div class="feature__icon" style="--c1:#f472b6;--c2:#a855f7" aria-hidden="true">📸</div>
+        <h3 data-editable="text">Instagram & seguidores</h3>
+        <p data-editable="rich">Extraia seguidores de concorrentes e prospects quentes em poucos cliques.</p>
+      </article>
+      <article class="feature">
+        <div class="feature__icon" style="--c1:#34d399;--c2:#059669" aria-hidden="true">🧾</div>
+        <h3 data-editable="text">Radar CNPJ</h3>
+        <p data-editable="rich">Filtros por CNAE, porte, segmento e data de abertura para listas cirúrgicas.</p>
+      </article>
+      <article class="feature">
+        <div class="feature__icon" style="--c1:#fbbf24;--c2:#f97316" aria-hidden="true">🤖</div>
+        <h3 data-editable="text">SDR com IA</h3>
+        <p data-editable="rich">Agente que aborda, qualifica, coleta dados e encaminha leads quentes 24/7.</p>
+      </article>
+      <article class="feature">
+        <div class="feature__icon" style="--c1:#38bdf8;--c2:#6366f1" aria-hidden="true">💬</div>
+        <h3 data-editable="text">WhatsApp nativo</h3>
+        <p data-editable="rich">Pareie seu número, crie campanhas com texto, áudio, imagem ou PDF e delays.</p>
+      </article>
+      <article class="feature">
+        <div class="feature__icon" style="--c1:#fb7185;--c2:#ef4444" aria-hidden="true">🗂️</div>
+        <h3 data-editable="text">CRM Kanban</h3>
+        <p data-editable="rich">Funis visuais: da captura à conversão, com status, notas e respostas no painel.</p>
+      </article>
     </div>
-  </section>
+    <p style="text-align:center;margin-top:30px"><a href="./recursos.html" class="btn btn--outline" data-editable="link">Ver todos os recursos →</a></p>
+  </div>
+</section>
 
-  <!-- How It Works Preview -->
-  <section class="section section--alt" aria-labelledby="hiw-preview-heading">
-    <div class="container">
-      <div class="section__header section__header--center fade-in">
-        <span class="section__label">Simple Process</span>
-        <h2 class="section__title" id="hiw-preview-heading">From Keyword to Published in 3 Steps</h2>
-      </div>
-      <div class="steps-row">
-        <div class="step-card fade-in">
-          <div class="step-card__number">1</div>
-          <h3 class="step-card__title">Enter Keyword or URL</h3>
-          <p class="step-card__desc">Choose between Keyword Mode for fresh topics or Viral URL Mode to transform existing content into something uniquely yours.</p>
-        </div>
-        <div class="step-card fade-in">
-          <div class="step-card__number">2</div>
-          <h3 class="step-card__title">AI Generates Content</h3>
-          <p class="step-card__desc">Our AI researches, outlines, writes, and optimizes your article in under 60 seconds — with built-in SEO scoring and readability checks.</p>
-        </div>
-        <div class="step-card fade-in">
-          <div class="step-card__number">3</div>
-          <h3 class="step-card__title">Review and Publish</h3>
-          <p class="step-card__desc">Review your content in the dashboard, make any edits, and publish directly to WordPress — or download and use wherever you need it.</p>
-        </div>
-      </div>
+<section class="section">
+  <div class="container">
+    <header class="sec-head">
+      <span class="eyebrow" data-editable="text">Resultados</span>
+      <h2 data-editable="text">Quem usa, <span class="grad">vende mais</span>.</h2>
+    </header>
+    <div class="testimonials">
+      <figure class="quote">
+        <blockquote data-editable="rich">Em duas semanas fechamos 17 clientes novos só com a extração do Maps + IA. O painel é absurdamente fácil.</blockquote>
+        <figcaption><strong data-editable="text">Rafael M.</strong><span data-editable="text">Agência de marketing local</span></figcaption>
+      </figure>
+      <figure class="quote">
+        <blockquote data-editable="rich">A qualificação automática sumiu com 80% do trabalho manual. Meu SDR virou fechador.</blockquote>
+        <figcaption><strong data-editable="text">Camila P.</strong><span data-editable="text">Consultoria B2B</span></figcaption>
+      </figure>
+      <figure class="quote">
+        <blockquote data-editable="rich">Radar CNPJ + Instagram é matador. Listas cirúrgicas, resposta alta, ROI em 10 dias.</blockquote>
+        <figcaption><strong data-editable="text">Thiago A.</strong><span data-editable="text">SaaS de gestão</span></figcaption>
+      </figure>
     </div>
-  </section>
+    <p style="text-align:center;margin-top:30px"><a href="./cases.html" class="btn btn--outline" data-editable="link">Ver cases completos →</a></p>
+  </div>
+</section>
 
-  <!-- Metrics -->
-  <section class="section section--dark" aria-label="Platform metrics">
-    <div class="container">
-      <div class="metrics-row">
-        <div class="metric fade-in">
-          <div class="metric__value"><span data-counter="60">0</span>s</div>
-          <p class="metric__label">Average generation time per article</p>
-        </div>
-        <div class="metric fade-in">
-          <div class="metric__value"><span data-counter="97">0</span>%</div>
-          <p class="metric__label">Average SEO optimization score</p>
-        </div>
-        <div class="metric fade-in">
-          <div class="metric__value"><span data-counter="6">0</span></div>
-          <p class="metric__label">Specialized content formats</p>
-        </div>
-      </div>
+<section class="cta">
+  <div class="container cta__inner">
+    <h2 data-editable="text">Pronto para <span class="grad">prospectar com IA</span>?</h2>
+    <p data-editable="rich">Ative, pareie o WhatsApp e tenha conversas reais em minutos.</p>
+    <div class="cta__actions">
+      <a href="./planos.html" class="btn btn--primary btn--lg" data-editable="link">Começar agora</a>
+      <a href="./faq.html" class="btn btn--ghost btn--lg" data-editable="link">Tenho dúvidas</a>
     </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="section section--light" aria-labelledby="testimonials-heading">
-    <div class="container">
-      <div class="section__header section__header--center fade-in">
-        <span class="section__label">Testimonials</span>
-        <h2 class="section__title" id="testimonials-heading">What Our Users Are Saying</h2>
-      </div>
-      <div class="testimonials-grid">
-        <div class="testimonial-card fade-in">
-          <p class="testimonial-card__quote">"SEOContent.ai cut our content production time by 80%. We went from publishing 4 articles a month to 20 — and our organic traffic doubled in 3 months."</p>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">MR</div>
-            <div>
-              <p class="testimonial-card__name">Marcus Rodriguez</p>
-              <p class="testimonial-card__role">Head of Content, GrowthStack Agency</p>
-            </div>
-          </div>
-        </div>
-        <div class="testimonial-card fade-in">
-          <p class="testimonial-card__quote">"The product review generator is a game-changer for our affiliate sites. Each article reads naturally and hits all the SEO marks. Our conversion rates improved 45%."</p>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">SK</div>
-            <div>
-              <p class="testimonial-card__name">Sarah Kim</p>
-              <p class="testimonial-card__role">Founder, TechReviews.io</p>
-            </div>
-          </div>
-        </div>
-        <div class="testimonial-card fade-in">
-          <p class="testimonial-card__quote">"We manage 30+ client sites. The WordPress integration alone saves us hours every week. The content quality rivals what our senior writers produce."</p>
-          <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar">JL</div>
-            <div>
-              <p class="testimonial-card__name">James Liu</p>
-              <p class="testimonial-card__role">SEO Director, DigitalFirst Media</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Pricing Preview -->
-  <section class="section section--alt" aria-labelledby="pricing-preview-heading">
-    <div class="container">
-      <div class="section__header section__header--center fade-in">
-        <span class="section__label">Pricing</span>
-        <h2 class="section__title" id="pricing-preview-heading">Plans That Scale With You</h2>
-        <p class="section__desc" style="margin-inline: auto;">Start with a one-time pack or go monthly for unlimited potential. Every plan includes all 6 content types.</p>
-      </div>
-      <div class="pricing-preview">
-        <div class="plan-card fade-in">
-          <h3 class="plan-card__name">Starter Pack</h3>
-          <p class="plan-card__price">$29</p>
-          <p class="plan-card__billing">One-time purchase</p>
-          <ul class="plan-card__feature-list" role="list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> 10 credits</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All 6 content types</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> WordPress publishing</li>
-          </ul>
-          <a href="#contact" class="btn btn--secondary" style="width:100%;">Get Started</a>
-        </div>
-        <div class="plan-card fade-in">
-          <h3 class="plan-card__name">Growth Pack</h3>
-          <p class="plan-card__price">$69</p>
-          <p class="plan-card__billing">One-time purchase</p>
-          <ul class="plan-card__feature-list" role="list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> 30 credits</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All 6 content types</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> 1 external site</li>
-          </ul>
-          <a href="#contact" class="btn btn--secondary" style="width:100%;">Get Started</a>
-        </div>
-        <div class="plan-card plan-card--popular fade-in">
-          <span class="plan-card__badge">Most Popular</span>
-          <h3 class="plan-card__name">Pro Monthly</h3>
-          <p class="plan-card__price">$49<span style="font-size: var(--text-sm); font-weight: 400; color: var(--color-text-muted);">/mo</span></p>
-          <p class="plan-card__billing">Billed monthly</p>
-          <ul class="plan-card__feature-list" role="list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> 50 credits/month</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> API access</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> 3 external sites</li>
-          </ul>
-          <a href="#contact" class="btn btn--primary" style="width:100%;">Start Free Trial</a>
-        </div>
-        <div class="plan-card fade-in">
-          <h3 class="plan-card__name">Business</h3>
-          <p class="plan-card__price">$129<span style="font-size: var(--text-sm); font-weight: 400; color: var(--color-text-muted);">/mo</span></p>
-          <p class="plan-card__billing">Billed monthly</p>
-          <ul class="plan-card__feature-list" role="list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> 150 credits/month</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Unlimited external sites</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Priority support</li>
-          </ul>
-          <a href="#contact" class="btn btn--secondary" style="width:100%;">Contact Sales</a>
-        </div>
-      </div>
-      <div style="text-align: center; margin-top: var(--space-8);">
-        <a href="#pricing" class="btn btn--ghost">View Full Pricing Details →</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Final CTA -->
-  <section class="cta-section" aria-labelledby="cta-heading">
-    <div class="container cta-section__inner">
-      <h2 class="cta-section__title" id="cta-heading">Ready to Scale Your Content?</h2>
-      <p class="cta-section__desc">Join 500+ content teams already using SEOContent.ai to produce ranking content faster than ever.</p>
-      <form class="cta-section__form" onsubmit="event.preventDefault(); this.innerHTML='<p style=\'color:#34D399;font-weight:600;padding:var(--space-3)\'>Thanks! We\'ll be in touch soon.</p>'; return false;">
-        <input type="email" class="cta-section__input" placeholder="Enter your email" aria-label="Email address" required>
-        <button type="submit" class="btn btn--accent">Get Early Access</button>
-      </form>
-    </div>
-  </section>
-
-</div>
-
-<!-- =====================================================================
-     PAGE 2: FEATURES
-     ===================================================================== -->
-<div class="page" id="page-features" data-page="features">
-
-  <section class="section section--light page-hero">
-    <div class="container">
-      <span class="section__label">Platform Features</span>
-      <h1 class="page-hero__title">Built for SEO Professionals</h1>
-      <p class="page-hero__desc">Every feature is designed to produce content that ranks. From AI generation to direct publishing, here's everything inside SEOContent.ai.</p>
-    </div>
-  </section>
-
-  <!-- AI Content Generation Engine -->
-  <section class="section section--alt">
-    <div class="container">
-      <div class="feature-detail fade-in">
-        <div class="feature-detail__content">
-          <div class="feature-detail__icon">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 10v3"/><circle cx="12" cy="17" r="4"/><path d="M8 17h8"/></svg>
-          </div>
-          <h2 class="feature-detail__title">AI Content Generation Engine</h2>
-          <p class="feature-detail__desc">Powered by GPT-4 and Claude, our engine doesn't just write — it researches competitors, analyzes SERP intent, and produces content structured to rank.</p>
-          <ul class="feature-detail__list">
-            <li>Dual AI model architecture for optimal output quality</li>
-            <li>Automatic competitor SERP analysis before writing</li>
-            <li>Built-in NLP optimization for search intent matching</li>
-            <li>Real-time SEO scoring as content generates</li>
-          </ul>
-        </div>
-        <div class="feature-detail__visual">
-          <picture>
-            <source srcset="./assets/images/seocontent-features.webp" type="image/webp">
-            <img src="./assets/images/seocontent-features.webp" alt="SEOContent.ai AI content generation engine interface" width="560" height="420" loading="lazy" decoding="async">
-          </picture>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 6 Content Types -->
-  <section class="section section--light" aria-labelledby="content-types-heading">
-    <div class="container">
-      <div class="section__header section__header--center fade-in">
-        <span class="section__label">Content Types</span>
-        <h2 class="section__title" id="content-types-heading">6 Specialized Content Formats</h2>
-        <p class="section__desc" style="margin-inline: auto;">Each format is pre-optimized with the right structure, headings, internal linking patterns, and SEO signals for its specific use case.</p>
-      </div>
-      <div class="content-types-grid">
-        <div class="content-type-card fade-in">
-          <h3 class="content-type-card__title">Standard SEO Article</h3>
-          <p class="content-type-card__desc">Long-form, keyword-optimized articles with proper heading hierarchy, internal linking suggestions, and meta data. Ideal for blog content and informational queries.</p>
-        </div>
-        <div class="content-type-card fade-in">
-          <h3 class="content-type-card__title">Product Review</h3>
-          <p class="content-type-card__desc">In-depth single-product reviews with pros/cons, specifications, alternatives, and structured data markup for rich snippets in search results.</p>
-        </div>
-        <div class="content-type-card fade-in">
-          <h3 class="content-type-card__title">Product Comparison</h3>
-          <p class="content-type-card__desc">Side-by-side product comparisons with feature tables, use-case recommendations, and verdict sections optimized for "vs" keywords.</p>
-        </div>
-        <div class="content-type-card fade-in">
-          <h3 class="content-type-card__title">Best X for Y</h3>
-          <p class="content-type-card__desc">Curated "best of" lists targeting high-intent commercial keywords. Includes mini-reviews, top picks, buyer's guide sections, and FAQ schema.</p>
-        </div>
-        <div class="content-type-card fade-in">
-          <h3 class="content-type-card__title">Affiliate Roundup</h3>
-          <p class="content-type-card__desc">Revenue-optimized roundup articles with product highlights, comparison tables, affiliate-ready formatting, and conversion-focused CTAs.</p>
-        </div>
-        <div class="content-type-card fade-in">
-          <h3 class="content-type-card__title">Authority Post</h3>
-          <p class="content-type-card__desc">Comprehensive, pillar-page-style content designed to establish topical authority. 3,000+ words with research citations and expert positioning.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- More Features -->
-  <section class="section section--alt">
-    <div class="container">
-      <!-- Keyword Research Mode -->
-      <div class="feature-detail fade-in">
-        <div class="feature-detail__content">
-          <div class="feature-detail__icon">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          </div>
-          <h2 class="feature-detail__title">Keyword Research Mode</h2>
-          <p class="feature-detail__desc">Enter a seed keyword and let our AI analyze the competitive landscape. We identify content gaps, keyword clusters, and optimal targeting strategies before generating a single word.</p>
-          <ul class="feature-detail__list">
-            <li>SERP analysis with competitor content mapping</li>
-            <li>Keyword difficulty and volume estimation</li>
-            <li>Long-tail keyword cluster identification</li>
-            <li>Content gap analysis against top 10 results</li>
-          </ul>
-        </div>
-        <div class="feature-detail__visual">
-          <picture>
-            <source srcset="./assets/images/seocontent-features.webp" type="image/webp">
-            <img src="./assets/images/seocontent-features.webp" alt="Keyword research interface showing SERP analysis" width="560" height="420" loading="lazy" decoding="async">
-          </picture>
-        </div>
-      </div>
-
-      <!-- Viral URL Mode -->
-      <div class="feature-detail fade-in">
-        <div class="feature-detail__content">
-          <div class="feature-detail__icon">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-          </div>
-          <h2 class="feature-detail__title">Viral URL Content Transformation</h2>
-          <p class="feature-detail__desc">Found a trending article or competitor piece? Paste the URL and our AI analyzes the content structure, extracts key insights, and produces an original, SEO-optimized version with your unique angle.</p>
-          <ul class="feature-detail__list">
-            <li>Automatic content extraction and analysis</li>
-            <li>Original angle generation to avoid duplication</li>
-            <li>SEO enhancement beyond the source material</li>
-            <li>Maintains factual accuracy while adding depth</li>
-          </ul>
-        </div>
-        <div class="feature-detail__visual">
-          <picture>
-            <source srcset="./assets/images/seocontent-features.webp" type="image/webp">
-            <img src="./assets/images/seocontent-features.webp" alt="Viral URL transformation workflow" width="560" height="420" loading="lazy" decoding="async">
-          </picture>
-        </div>
-      </div>
-
-      <!-- Multi-Language -->
-      <div class="feature-detail fade-in">
-        <div class="feature-detail__content">
-          <div class="feature-detail__icon">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          </div>
-          <h2 class="feature-detail__title">Multi-Language Support</h2>
-          <p class="feature-detail__desc">Generate native-quality content in English and Portuguese (PT-BR). Our auto-detect feature identifies the target language from your keyword and adjusts the entire content strategy accordingly.</p>
-          <ul class="feature-detail__list">
-            <li>English (US/UK) and Portuguese (PT-BR)</li>
-            <li>Auto-detect language from keyword input</li>
-            <li>Localized SEO optimization per language</li>
-            <li>More languages coming soon</li>
-          </ul>
-        </div>
-        <div class="feature-detail__visual">
-          <picture>
-            <source srcset="./assets/images/seocontent-features.webp" type="image/webp">
-            <img src="./assets/images/seocontent-features.webp" alt="Multi-language content generation options" width="560" height="420" loading="lazy" decoding="async">
-          </picture>
-        </div>
-      </div>
-
-      <!-- SEO Audit -->
-      <div class="feature-detail fade-in">
-        <div class="feature-detail__content">
-          <div class="feature-detail__icon">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-          </div>
-          <h2 class="feature-detail__title">SEO Audit Tool</h2>
-          <p class="feature-detail__desc">Run a comprehensive, read-only SEO audit on any URL. Get detailed reports on on-page factors, keyword usage, meta tags, heading structure, and content quality — no changes needed to the target site.</p>
-          <ul class="feature-detail__list">
-            <li>On-page SEO factor analysis</li>
-            <li>Keyword density and placement check</li>
-            <li>Meta tag and heading structure review</li>
-            <li>Content quality and readability scoring</li>
-          </ul>
-        </div>
-        <div class="feature-detail__visual">
-          <picture>
-            <source srcset="./assets/images/seocontent-features.webp" type="image/webp">
-            <img src="./assets/images/seocontent-features.webp" alt="SEO audit tool showing site analysis results" width="560" height="420" loading="lazy" decoding="async">
-          </picture>
-        </div>
-      </div>
-
-      <!-- WordPress Publishing -->
-      <div class="feature-detail fade-in">
-        <div class="feature-detail__content">
-          <div class="feature-detail__icon">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
-          </div>
-          <h2 class="feature-detail__title">WordPress Direct Publishing</h2>
-          <p class="feature-detail__desc">Connect your WordPress sites and publish content directly from the SEOContent.ai dashboard. Articles go live with proper HTML formatting, featured images, categories, tags, and Yoast SEO meta data.</p>
-          <ul class="feature-detail__list">
-            <li>One-click publish to any connected WP site</li>
-            <li>Automatic HTML formatting and image placement</li>
-            <li>Yoast SEO meta data integration</li>
-            <li>Draft, publish, or schedule options</li>
-          </ul>
-        </div>
-        <div class="feature-detail__visual">
-          <picture>
-            <source srcset="./assets/images/seocontent-features.webp" type="image/webp">
-            <img src="./assets/images/seocontent-features.webp" alt="WordPress publishing integration settings" width="560" height="420" loading="lazy" decoding="async">
-          </picture>
-        </div>
-      </div>
-
-      <!-- API & Dashboard -->
-      <div class="feature-detail fade-in">
-        <div class="feature-detail__content">
-          <div class="feature-detail__icon">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-          </div>
-          <h2 class="feature-detail__title">API & Usage Dashboard</h2>
-          <p class="feature-detail__desc">Integrate SEOContent.ai into your own workflows via our REST API. Track usage, credits, and content performance from a unified dashboard with real-time analytics.</p>
-          <ul class="feature-detail__list">
-            <li>RESTful API for programmatic content generation</li>
-            <li>External site API integration support</li>
-            <li>Real-time credit and usage tracking</li>
-            <li>Content performance analytics dashboard</li>
-          </ul>
-        </div>
-        <div class="feature-detail__visual">
-          <picture>
-            <source srcset="./assets/images/seocontent-features.webp" type="image/webp">
-            <img src="./assets/images/seocontent-features.webp" alt="API documentation and usage dashboard" width="560" height="420" loading="lazy" decoding="async">
-          </picture>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Features CTA -->
-  <section class="cta-section">
-    <div class="container cta-section__inner">
-      <h2 class="cta-section__title">See These Features in Action</h2>
-      <p class="cta-section__desc">Start with 10 credits and experience every feature firsthand. No credit card required.</p>
-      <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
-        <a href="#pricing" class="btn btn--white btn--lg">View Pricing</a>
-        <a href="#contact" class="btn btn--secondary btn--lg" style="border-color: rgba(255,255,255,0.2); color: #fff;">Contact Sales</a>
-      </div>
-    </div>
-  </section>
-
-</div>
-
-<!-- =====================================================================
-     PAGE 3: PRICING
-     ===================================================================== -->
-<div class="page" id="page-pricing" data-page="pricing">
-
-  <section class="section section--light page-hero">
-    <div class="container">
-      <span class="section__label">Pricing</span>
-      <h1 class="page-hero__title">Simple, Transparent Pricing</h1>
-      <p class="page-hero__desc">Start with a one-time credit pack or subscribe monthly for ongoing content production. Every plan includes all 6 content types.</p>
-    </div>
-  </section>
-
-  <!-- Pricing Cards -->
-  <section class="section section--alt" aria-labelledby="pricing-cards-heading">
-    <div class="container">
-      <h2 class="sr-only" id="pricing-cards-heading">Plan Options</h2>
-      <div class="pricing-preview" style="margin-bottom: var(--space-16);">
-        <div class="plan-card fade-in">
-          <h3 class="plan-card__name">Starter Pack</h3>
-          <p class="plan-card__price">$29</p>
-          <p class="plan-card__billing">One-time purchase · 10 credits</p>
-          <ul class="plan-card__feature-list" role="list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All 6 content types</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All languages</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> SEO Audit tool</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> WordPress publishing</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Credits never expire</li>
-          </ul>
-          <a href="#contact" class="btn btn--secondary" style="width:100%;">Get Starter Pack</a>
-        </div>
-        <div class="plan-card fade-in">
-          <h3 class="plan-card__name">Growth Pack</h3>
-          <p class="plan-card__price">$69</p>
-          <p class="plan-card__billing">One-time purchase · 30 credits</p>
-          <ul class="plan-card__feature-list" role="list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All 6 content types</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All languages</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> SEO Audit tool</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> WordPress publishing</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> 1 external site</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Credits never expire</li>
-          </ul>
-          <a href="#contact" class="btn btn--secondary" style="width:100%;">Get Growth Pack</a>
-        </div>
-        <div class="plan-card plan-card--popular fade-in">
-          <span class="plan-card__badge">Most Popular</span>
-          <h3 class="plan-card__name">Pro Monthly</h3>
-          <p class="plan-card__price">$49<span style="font-size: var(--text-sm); font-weight: 400; color: var(--color-text-muted);">/mo</span></p>
-          <p class="plan-card__billing">50 credits per month</p>
-          <ul class="plan-card__feature-list" role="list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All 6 content types</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All languages</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> SEO Audit tool</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> WordPress publishing</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> 3 external sites</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> API access</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Priority support</li>
-          </ul>
-          <a href="#contact" class="btn btn--primary" style="width:100%;">Start Free Trial</a>
-        </div>
-        <div class="plan-card fade-in">
-          <h3 class="plan-card__name">Business Monthly</h3>
-          <p class="plan-card__price">$129<span style="font-size: var(--text-sm); font-weight: 400; color: var(--color-text-muted);">/mo</span></p>
-          <p class="plan-card__billing">150 credits per month</p>
-          <ul class="plan-card__feature-list" role="list">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All 6 content types</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> All languages</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> SEO Audit tool</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> WordPress publishing</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Unlimited external sites</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> API access</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Priority support</li>
-          </ul>
-          <a href="#contact" class="btn btn--secondary" style="width:100%;">Contact Sales</a>
-        </div>
-      </div>
-
-      <!-- Comparison Table -->
-      <div class="section__header section__header--center fade-in" style="margin-top: var(--space-8);">
-        <h2 class="section__title">Full Feature Comparison</h2>
-      </div>
-      <div class="pricing-table-wrap fade-in">
-        <table class="pricing-table">
-          <thead>
-            <tr>
-              <th>Feature</th>
-              <th>Starter Pack</th>
-              <th>Growth Pack</th>
-              <th class="popular">Pro Monthly</th>
-              <th>Business Monthly</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Price</td>
-              <td>$29 (one-time)</td>
-              <td>$69 (one-time)</td>
-              <td class="popular-col">$49/month</td>
-              <td>$129/month</td>
-            </tr>
-            <tr>
-              <td>Credits</td>
-              <td>10</td>
-              <td>30</td>
-              <td class="popular-col">50/mo</td>
-              <td>150/mo</td>
-            </tr>
-            <tr>
-              <td>Content Types</td>
-              <td>All 6</td>
-              <td>All 6</td>
-              <td class="popular-col">All 6</td>
-              <td>All 6</td>
-            </tr>
-            <tr>
-              <td>Languages</td>
-              <td>All</td>
-              <td>All</td>
-              <td class="popular-col">All</td>
-              <td>All</td>
-            </tr>
-            <tr>
-              <td>SEO Audit</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td class="popular-col">Yes</td>
-              <td>Yes</td>
-            </tr>
-            <tr>
-              <td>WP Publishing</td>
-              <td>Yes</td>
-              <td>Yes</td>
-              <td class="popular-col">Yes</td>
-              <td>Yes</td>
-            </tr>
-            <tr>
-              <td>External Sites</td>
-              <td>—</td>
-              <td>1</td>
-              <td class="popular-col">3</td>
-              <td>Unlimited</td>
-            </tr>
-            <tr>
-              <td>API Access</td>
-              <td>—</td>
-              <td>—</td>
-              <td class="popular-col">Yes</td>
-              <td>Yes</td>
-            </tr>
-            <tr>
-              <td>Priority Support</td>
-              <td>—</td>
-              <td>—</td>
-              <td class="popular-col">Yes</td>
-              <td>Yes</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section section--light" aria-labelledby="faq-heading">
-    <div class="container">
-      <div class="section__header section__header--center fade-in">
-        <span class="section__label">FAQ</span>
-        <h2 class="section__title" id="faq-heading">Frequently Asked Questions</h2>
-      </div>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-item__question" aria-expanded="false">
-            How do credits work?
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-item__answer"><p>Each credit generates one complete article, regardless of content type or length. One-time pack credits never expire. Monthly subscription credits reset each billing cycle — unused credits do not roll over.</p></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-item__question" aria-expanded="false">
-            What content types are available?
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-item__answer"><p>SEOContent.ai offers 6 specialized content types: Standard SEO Article, Product Review, Product Comparison, Best X for Y, Affiliate Roundup, and Authority Post. All plans include access to every content type.</p></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-item__question" aria-expanded="false">
-            Which languages are supported?
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-item__answer"><p>Currently we support English (US/UK) and Portuguese (PT-BR) with automatic language detection from your keyword. Additional languages are on our roadmap and will be available soon.</p></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-item__question" aria-expanded="false">
-            Can I publish directly to WordPress?
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-item__answer"><p>Yes! All plans include WordPress direct publishing. Connect your site via our dashboard, and articles go live with proper HTML formatting, featured images, categories, and Yoast SEO meta data. You can publish immediately, save as draft, or schedule for later.</p></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-item__question" aria-expanded="false">
-            What is the SEO Audit tool?
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-item__answer"><p>The SEO Audit tool performs a read-only analysis of any URL. It checks on-page SEO factors including meta tags, heading structure, keyword density, content quality, and internal linking — giving you a comprehensive score and actionable recommendations.</p></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-item__question" aria-expanded="false">
-            What are external sites?
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-item__answer"><p>External sites let you connect non-WordPress websites via API integration. This is ideal for agencies managing custom CMS platforms. The Starter Pack doesn't include this feature; Growth includes 1 site, Pro includes 3, and Business offers unlimited.</p></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-item__question" aria-expanded="false">
-            Do you offer refunds?
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-item__answer"><p>We offer a 7-day money-back guarantee on all plans. If you're not satisfied with the quality of our AI-generated content, contact support within 7 days of purchase for a full refund.</p></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-item__question" aria-expanded="false">
-            Can I upgrade my plan later?
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div class="faq-item__answer"><p>Absolutely. You can upgrade from a one-time pack to a monthly subscription at any time. If upgrading between monthly plans, we'll prorate the difference. Your existing credits carry over.</p></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-</div>
-
-<!-- =====================================================================
-     PAGE 4: HOW IT WORKS
-     ===================================================================== -->
-<div class="page" id="page-how-it-works" data-page="how-it-works">
-
-  <section class="section section--light page-hero">
-    <div class="container">
-      <span class="section__label">How It Works</span>
-      <h1 class="page-hero__title">From Idea to Published in Minutes</h1>
-      <p class="page-hero__desc">A streamlined 5-step process that handles research, writing, optimization, and publishing — so you can focus on strategy.</p>
-    </div>
-  </section>
-
-  <section class="section section--alt">
-    <div class="container">
-      <!-- Step 1 -->
-      <div class="hiw-step fade-in">
-        <div>
-          <div class="hiw-step__number">01</div>
-          <h2 class="hiw-step__title">Choose Your Mode</h2>
-          <p class="hiw-step__desc">Start with Keyword Mode by entering a target keyword, or use Viral URL Mode by pasting any article URL. Each mode triggers a different research and content strategy to match your goals.</p>
-          <ul class="feature-detail__list">
-            <li>Keyword Mode: AI researches the SERP and identifies content gaps</li>
-            <li>Viral URL Mode: AI analyzes the source and finds a unique angle</li>
-          </ul>
-        </div>
-        <div class="hiw-step__visual">
-          <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="30" width="160" height="90" rx="8" stroke="currentColor" stroke-width="2"/><rect x="35" y="55" width="70" height="12" rx="4" fill="currentColor" opacity="0.15"/><rect x="35" y="75" width="50" height="12" rx="4" fill="currentColor" opacity="0.1"/><circle cx="150" cy="65" r="20" stroke="currentColor" stroke-width="2" opacity="0.3"/><path d="M160 75l10 10" stroke="currentColor" stroke-width="2" opacity="0.3" stroke-linecap="round"/></svg>
-        </div>
-      </div>
-
-      <!-- Step 2 -->
-      <div class="hiw-step fade-in">
-        <div>
-          <div class="hiw-step__number">02</div>
-          <h2 class="hiw-step__title">Configure Your Content</h2>
-          <p class="hiw-step__desc">Select the content type (Standard SEO, Product Review, Comparison, Best X for Y, Affiliate Roundup, or Authority Post), choose your language, and specify the target site for publishing.</p>
-          <ul class="feature-detail__list">
-            <li>6 specialized content formats</li>
-            <li>English and Portuguese (PT-BR) with auto-detect</li>
-            <li>Select target WordPress site or download option</li>
-          </ul>
-        </div>
-        <div class="hiw-step__visual">
-          <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="20" width="160" height="110" rx="8" stroke="currentColor" stroke-width="2"/><rect x="35" y="38" width="130" height="16" rx="4" fill="currentColor" opacity="0.1"/><rect x="35" y="62" width="130" height="16" rx="4" fill="currentColor" opacity="0.1"/><rect x="35" y="86" width="130" height="16" rx="4" fill="currentColor" opacity="0.1"/><rect x="35" y="108" width="60" height="14" rx="4" fill="currentColor" opacity="0.25"/></svg>
-        </div>
-      </div>
-
-      <!-- Step 3 -->
-      <div class="hiw-step fade-in">
-        <div>
-          <div class="hiw-step__number">03</div>
-          <h2 class="hiw-step__title">AI Generates Your Content</h2>
-          <p class="hiw-step__desc">Our dual-model AI engine (GPT-4 + Claude) researches the topic, analyzes competitor content, writes the article, and optimizes it for search — all in under 60 seconds.</p>
-          <ul class="feature-detail__list">
-            <li>Competitor SERP analysis and content gap identification</li>
-            <li>AI-powered research, writing, and optimization</li>
-            <li>Real-time SEO score calculation during generation</li>
-          </ul>
-        </div>
-        <div class="hiw-step__visual">
-          <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="20" width="160" height="110" rx="8" stroke="currentColor" stroke-width="2"/><rect x="35" y="35" width="100" height="8" rx="2" fill="currentColor" opacity="0.2"/><rect x="35" y="50" width="130" height="4" rx="2" fill="currentColor" opacity="0.08"/><rect x="35" y="60" width="120" height="4" rx="2" fill="currentColor" opacity="0.08"/><rect x="35" y="70" width="125" height="4" rx="2" fill="currentColor" opacity="0.08"/><rect x="35" y="85" width="80" height="8" rx="2" fill="currentColor" opacity="0.15"/><rect x="35" y="100" width="130" height="4" rx="2" fill="currentColor" opacity="0.08"/><rect x="35" y="110" width="110" height="4" rx="2" fill="currentColor" opacity="0.08"/></svg>
-        </div>
-      </div>
-
-      <!-- Step 4 -->
-      <div class="hiw-step fade-in">
-        <div>
-          <div class="hiw-step__number">04</div>
-          <h2 class="hiw-step__title">Review in Your Dashboard</h2>
-          <p class="hiw-step__desc">View your generated content with a detailed SEO score breakdown. See keyword usage, heading structure, readability metrics, and optimization suggestions — all in one clear view.</p>
-          <ul class="feature-detail__list">
-            <li>Detailed SEO score with factor-by-factor breakdown</li>
-            <li>Inline editing for quick adjustments</li>
-            <li>Keyword density and placement visualization</li>
-          </ul>
-        </div>
-        <div class="hiw-step__visual">
-          <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="20" width="110" height="110" rx="8" stroke="currentColor" stroke-width="2"/><rect x="140" y="20" width="40" height="110" rx="8" stroke="currentColor" stroke-width="2"/><rect x="30" y="35" width="60" height="6" rx="2" fill="currentColor" opacity="0.15"/><rect x="30" y="48" width="90" height="3" rx="1" fill="currentColor" opacity="0.08"/><rect x="30" y="56" width="85" height="3" rx="1" fill="currentColor" opacity="0.08"/><circle cx="160" cy="50" r="15" stroke="currentColor" stroke-width="2" opacity="0.2"/><text x="160" y="54" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.3">97</text></svg>
-        </div>
-      </div>
-
-      <!-- Step 5 -->
-      <div class="hiw-step fade-in">
-        <div>
-          <div class="hiw-step__number">05</div>
-          <h2 class="hiw-step__title">Publish or Download</h2>
-          <p class="hiw-step__desc">One click to publish directly to your connected WordPress site — complete with formatting, featured images, and Yoast meta data. Or download as HTML/Markdown for use anywhere.</p>
-          <ul class="feature-detail__list">
-            <li>Direct WordPress publish with full formatting</li>
-            <li>Download as HTML, Markdown, or plain text</li>
-            <li>Schedule posts for future publication</li>
-          </ul>
-        </div>
-        <div class="hiw-step__visual">
-          <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="40" y="30" width="120" height="90" rx="8" stroke="currentColor" stroke-width="2"/><path d="M100 55v30M85 70l15 15 15-15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/><rect x="70" y="95" width="60" height="14" rx="4" fill="currentColor" opacity="0.2"/></svg>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-section">
-    <div class="container cta-section__inner">
-      <h2 class="cta-section__title">Ready to Try It Yourself?</h2>
-      <p class="cta-section__desc">Generate your first AI-optimized article in under 60 seconds.</p>
-      <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
-        <a href="#pricing" class="btn btn--white btn--lg">Start Free Trial</a>
-      </div>
-    </div>
-  </section>
-
-</div>
-
-<!-- =====================================================================
-     PAGE 5: USE CASES
-     ===================================================================== -->
-<div class="page" id="page-use-cases" data-page="use-cases">
-
-  <section class="section section--light page-hero">
-    <div class="container">
-      <span class="section__label">Use Cases</span>
-      <h1 class="page-hero__title">Built for Every Content Team</h1>
-      <p class="page-hero__desc">From solo bloggers to enterprise teams, SEOContent.ai adapts to your workflow and scales with your content needs.</p>
-    </div>
-  </section>
-
-  <section class="section section--alt">
-    <div class="container">
-
-      <!-- Bloggers & Creators -->
-      <div class="use-case fade-in">
-        <div class="use-case__icon">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
-        </div>
-        <div>
-          <h2 class="use-case__title">Bloggers & Content Creators</h2>
-          <p class="use-case__subtitle">Scale content production 10x</p>
-          <div class="use-case__problem">
-            <strong>The Problem</strong>
-            <p>Creating consistent, SEO-optimized blog content takes hours of research and writing per article. Most bloggers can't publish more than 2-4 articles per month while maintaining quality.</p>
-          </div>
-          <div class="use-case__solution">
-            <strong>The Solution</strong>
-            <p>SEOContent.ai handles the heavy lifting — from keyword research to fully optimized drafts in 60 seconds. Publish 10-20x more content while maintaining (or exceeding) your quality standards.</p>
-          </div>
-          <div class="use-case__features">
-            <span class="use-case__tag">Keyword Mode</span>
-            <span class="use-case__tag">Standard SEO Article</span>
-            <span class="use-case__tag">Authority Post</span>
-            <span class="use-case__tag">WordPress Publishing</span>
-          </div>
-          <a href="#pricing" class="btn btn--primary btn--sm">Get Started →</a>
-        </div>
-      </div>
-
-      <!-- SEO Agencies -->
-      <div class="use-case fade-in">
-        <div class="use-case__icon">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-        </div>
-        <div>
-          <h2 class="use-case__title">SEO Agencies</h2>
-          <p class="use-case__subtitle">White-label content via API</p>
-          <div class="use-case__problem">
-            <strong>The Problem</strong>
-            <p>Managing content production across dozens of client sites is expensive and slow. Hiring writers, maintaining quality, and meeting deadlines creates constant operational pressure.</p>
-          </div>
-          <div class="use-case__solution">
-            <strong>The Solution</strong>
-            <p>Use our API to integrate content generation into your existing workflows. Generate client content programmatically, maintain quality with the SEO Audit tool, and publish directly to client WordPress sites.</p>
-          </div>
-          <div class="use-case__features">
-            <span class="use-case__tag">API Access</span>
-            <span class="use-case__tag">External Sites</span>
-            <span class="use-case__tag">SEO Audit</span>
-            <span class="use-case__tag">Multi-Language</span>
-          </div>
-          <a href="#pricing" class="btn btn--primary btn--sm">View Agency Plans →</a>
-        </div>
-      </div>
-
-      <!-- E-commerce -->
-      <div class="use-case fade-in">
-        <div class="use-case__icon">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
-        </div>
-        <div>
-          <h2 class="use-case__title">E-commerce & Product Teams</h2>
-          <p class="use-case__subtitle">Product reviews at scale</p>
-          <div class="use-case__problem">
-            <strong>The Problem</strong>
-            <p>E-commerce content teams need hundreds of product descriptions, reviews, and comparison articles. Manual creation is prohibitively expensive for large catalogs.</p>
-          </div>
-          <div class="use-case__solution">
-            <strong>The Solution</strong>
-            <p>Generate product reviews, comparisons, and "Best X for Y" content tailored to your catalog. Each article includes structured data markup ready for rich snippets in search results.</p>
-          </div>
-          <div class="use-case__features">
-            <span class="use-case__tag">Product Review</span>
-            <span class="use-case__tag">Product Comparison</span>
-            <span class="use-case__tag">Best X for Y</span>
-            <span class="use-case__tag">WooCommerce</span>
-          </div>
-          <a href="#pricing" class="btn btn--primary btn--sm">Scale Your Content →</a>
-        </div>
-      </div>
-
-      <!-- Affiliate Marketers -->
-      <div class="use-case fade-in">
-        <div class="use-case__icon">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-        </div>
-        <div>
-          <h2 class="use-case__title">Affiliate Marketers</h2>
-          <p class="use-case__subtitle">Roundups and "Best X for Y" content</p>
-          <div class="use-case__problem">
-            <strong>The Problem</strong>
-            <p>Affiliate content requires a specific structure — comparison tables, pros/cons, buyer's guides — that generic AI tools don't produce. Writing conversion-optimized affiliate articles from scratch is time-intensive.</p>
-          </div>
-          <div class="use-case__solution">
-            <strong>The Solution</strong>
-            <p>Our Affiliate Roundup and Best X for Y content types are purpose-built for affiliate marketers. Each article includes conversion-focused formatting, comparison tables, and CTA placement designed to maximize revenue.</p>
-          </div>
-          <div class="use-case__features">
-            <span class="use-case__tag">Affiliate Roundup</span>
-            <span class="use-case__tag">Best X for Y</span>
-            <span class="use-case__tag">Product Comparison</span>
-            <span class="use-case__tag">Viral URL Mode</span>
-          </div>
-          <a href="#pricing" class="btn btn--primary btn--sm">Boost Your Revenue →</a>
-        </div>
-      </div>
-
-      <!-- Enterprise -->
-      <div class="use-case fade-in">
-        <div class="use-case__icon">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-        </div>
-        <div>
-          <h2 class="use-case__title">Enterprise Content Teams</h2>
-          <p class="use-case__subtitle">Standardized, high-quality output at scale</p>
-          <div class="use-case__problem">
-            <strong>The Problem</strong>
-            <p>Large content teams struggle with consistency. Different writers produce different quality levels, brand voice varies across articles, and SEO standards aren't uniformly applied.</p>
-          </div>
-          <div class="use-case__solution">
-            <strong>The Solution</strong>
-            <p>SEOContent.ai produces consistent, high-quality output every time. The Business plan with 150 monthly credits, unlimited external sites, API access, and priority support is built for enterprise-scale operations.</p>
-          </div>
-          <div class="use-case__features">
-            <span class="use-case__tag">150 Credits/month</span>
-            <span class="use-case__tag">Unlimited External Sites</span>
-            <span class="use-case__tag">API Access</span>
-            <span class="use-case__tag">Priority Support</span>
-          </div>
-          <a href="#contact" class="btn btn--primary btn--sm">Contact Enterprise Sales →</a>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="cta-section">
-    <div class="container cta-section__inner">
-      <h2 class="cta-section__title">Find the Right Plan for Your Team</h2>
-      <p class="cta-section__desc">Whether you're a solo creator or an enterprise team, we have a plan that fits.</p>
-      <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
-        <a href="#pricing" class="btn btn--white btn--lg">View Pricing</a>
-        <a href="#contact" class="btn btn--secondary btn--lg" style="border-color: rgba(255,255,255,0.2); color: #fff;">Talk to Sales</a>
-      </div>
-    </div>
-  </section>
-
-</div>
-
-<!-- =====================================================================
-     PAGE 6: ABOUT
-     ===================================================================== -->
-<div class="page" id="page-about" data-page="about">
-
-  <section class="section section--light page-hero">
-    <div class="container">
-      <span class="section__label">About Us</span>
-      <h1 class="page-hero__title">Making World-Class SEO Content Accessible to Everyone</h1>
-      <p class="page-hero__desc">We believe every business deserves content that ranks, regardless of budget or team size.</p>
-    </div>
-  </section>
-
-  <section class="section section--alt">
-    <div class="container">
-      <div class="about-hero fade-in">
-        <div>
-          <h2 style="font-size: var(--text-xl); font-weight: 800; margin-bottom: var(--space-4);">Our Story</h2>
-          <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: var(--space-4);">SEOContent.ai was born from a simple frustration: creating content that ranks in search engines shouldn't require a team of writers, SEO specialists, and editors. We saw small businesses and independent creators struggle to compete with the content machines of larger companies.</p>
-          <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: var(--space-4);">So we built a platform that combines the intelligence of the best AI models (GPT-4 and Claude) with deep SEO expertise — delivering content that doesn't just read well, but is engineered to rank.</p>
-          <p style="color: var(--color-text-muted); line-height: 1.7;">Today, over 500 content teams worldwide use SEOContent.ai to produce ranking content faster, more consistently, and at a fraction of the traditional cost.</p>
-        </div>
-        <div class="about-hero__image">
-          <picture>
-            <source srcset="./assets/images/seocontent-about.webp" type="image/webp">
-            <img src="./assets/images/seocontent-about.webp" alt="SEOContent.ai team working on AI content generation technology" width="560" height="420" loading="lazy" decoding="async">
-          </picture>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Technology -->
-  <section class="section section--light" aria-labelledby="tech-heading">
-    <div class="container">
-      <div class="section__header section__header--center fade-in">
-        <span class="section__label">Our Technology</span>
-        <h2 class="section__title" id="tech-heading">AI + SEO + WordPress</h2>
-        <p class="section__desc" style="margin-inline: auto;">Three pillars that make SEOContent.ai uniquely effective.</p>
-      </div>
-      <div class="features-grid" style="grid-template-columns: repeat(3, 1fr);">
-        <div class="feature-card fade-in">
-          <div class="feature-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 10v3"/><circle cx="12" cy="17" r="4"/><path d="M8 17h8"/></svg>
-          </div>
-          <h3 class="feature-card__title">Dual AI Engine</h3>
-          <p class="feature-card__desc">GPT-4 and Claude work together — one handles creative writing, the other validates accuracy and SEO compliance. The result is content that's both engaging and technically optimized.</p>
-        </div>
-        <div class="feature-card fade-in">
-          <div class="feature-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-          </div>
-          <h3 class="feature-card__title">SEO Intelligence</h3>
-          <p class="feature-card__desc">Every article is built on real SERP data. Our engine analyzes competitor content, identifies gaps, and structures articles to target both primary and secondary keywords.</p>
-        </div>
-        <div class="feature-card fade-in">
-          <div class="feature-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
-          </div>
-          <h3 class="feature-card__title">WordPress Native</h3>
-          <p class="feature-card__desc">Not just an export tool — a true WordPress integration. Publish with formatting, images, categories, tags, and Yoast SEO meta data, all from one click.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Values -->
-  <section class="section section--alt" aria-labelledby="values-heading">
-    <div class="container">
-      <div class="section__header section__header--center fade-in">
-        <span class="section__label">Our Values</span>
-        <h2 class="section__title" id="values-heading">What Drives Us</h2>
-      </div>
-      <div class="values-grid">
-        <div class="value-card fade-in">
-          <div class="value-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          </div>
-          <h3 class="value-card__title">Quality First</h3>
-          <p class="value-card__desc">We'd rather produce fewer articles that rank than flood the internet with mediocre content. Every generation is optimized to meet professional standards.</p>
-        </div>
-        <div class="value-card fade-in">
-          <div class="value-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-          </div>
-          <h3 class="value-card__title">Speed</h3>
-          <p class="value-card__desc">60-second generation isn't just a metric — it's a promise. We continuously optimize our pipeline to deliver faster results without sacrificing quality.</p>
-        </div>
-        <div class="value-card fade-in">
-          <div class="value-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-          </div>
-          <h3 class="value-card__title">Transparency</h3>
-          <p class="value-card__desc">Simple pricing. No hidden fees. No credit expirations on one-time packs. You always know exactly what you're getting and what it costs.</p>
-        </div>
-        <div class="value-card fade-in">
-          <div class="value-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          </div>
-          <h3 class="value-card__title">SEO-First</h3>
-          <p class="value-card__desc">Every feature, every content type, every optimization is designed with one goal: helping your content rank. We're an SEO tool that writes, not a writing tool that does SEO.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Team / Brand Story -->
-  <section class="section section--light">
-    <div class="container" style="max-width: var(--content-default);">
-      <div class="section__header section__header--center fade-in">
-        <span class="section__label">Our Team</span>
-        <h2 class="section__title">Built by SEO Practitioners</h2>
-      </div>
-      <div class="fade-in" style="text-align: center;">
-        <p style="color: var(--color-text-muted); line-height: 1.8; margin-bottom: var(--space-4); max-width: 640px; margin-inline: auto;">Our founding team combines decades of experience in SEO, content marketing, and AI engineering. We've managed content strategies for Fortune 500 companies and built AI systems used by millions — now we're bringing that expertise to every content creator.</p>
-        <p style="color: var(--color-text-muted); line-height: 1.8; max-width: 640px; margin-inline: auto;">Based in the US and Brazil, we serve a global community of content professionals who trust us to help them produce the kind of content that earns traffic, builds authority, and drives conversions.</p>
-      </div>
-    </div>
-  </section>
-
-</div>
-
-<!-- =====================================================================
-     PAGE 7: CONTACT
-     ===================================================================== -->
-<div class="page" id="page-contact" data-page="contact">
-
-  <section class="section section--light page-hero">
-    <div class="container">
-      <span class="section__label">Contact Us</span>
-      <h1 class="page-hero__title">Get in Touch</h1>
-      <p class="page-hero__desc">Have a question about SEOContent.ai? We're here to help. Send us a message and we'll respond within 24 hours.</p>
-    </div>
-  </section>
-
-  <section class="section section--alt">
-    <div class="container">
-      <div class="contact-layout">
-        <div>
-          <form class="contact-form" id="contactForm">
-            <div class="form-group">
-              <label for="contact-name">Full Name</label>
-              <input type="text" id="contact-name" name="name" placeholder="Your full name" required>
-            </div>
-            <div class="form-group">
-              <label for="contact-email">Email Address</label>
-              <input type="email" id="contact-email" name="email" placeholder="you@example.com" required>
-            </div>
-            <div class="form-group">
-              <label for="contact-subject">Subject</label>
-              <select id="contact-subject" name="subject" required>
-                <option value="">Select a topic</option>
-                <option value="sales">Sales Inquiry</option>
-                <option value="support">Technical Support</option>
-                <option value="billing">Billing Question</option>
-                <option value="partnership">Partnership</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="contact-message">Message</label>
-              <textarea id="contact-message" name="message" placeholder="Tell us how we can help..." rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn--primary btn--lg">Send Message</button>
-          </form>
-          <div class="form-success" id="formSuccess">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin: 0 auto var(--space-3);"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <p style="font-size: var(--text-lg); margin-bottom: var(--space-2);">Message Sent!</p>
-            <p style="font-size: var(--text-sm); color: var(--color-text-muted);">Thanks for reaching out. We'll get back to you within 24 hours.</p>
-          </div>
-        </div>
-
-        <div class="contact-info">
-          <div class="contact-info__item">
-            <div class="contact-info__icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            </div>
-            <div class="contact-info__text">
-              <h4>Email Us</h4>
-              <p><a href="/cdn-cgi/l/email-protection#dba8aeababb4a9af9ba8beb4b8b4b5afbeb5aff5bab2" style="color: var(--color-primary); text-decoration: none;"><span class="__cf_email__" data-cfemail="b1c2c4c1c1dec3c5f1c2d4ded2dedfc5d4dfc59fd0d8">[email&#160;protected]</span></a></p>
-            </div>
-          </div>
-          <div class="contact-info__item">
-            <div class="contact-info__icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            </div>
-            <div class="contact-info__text">
-              <h4>Response Time</h4>
-              <p>We respond within 24 hours on business days. Priority support subscribers get responses within 4 hours.</p>
-            </div>
-          </div>
-          <div class="contact-info__item">
-            <div class="contact-info__icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            </div>
-            <div class="contact-info__text">
-              <h4>Global Support</h4>
-              <p>We serve customers in the US, Europe, and Latin America. Support available in English and Portuguese.</p>
-            </div>
-          </div>
-
-          <div style="margin-top: var(--space-8); padding-top: var(--space-8); border-top: 1px solid var(--color-border);">
-            <h4 style="font-size: var(--text-sm); font-weight: 700; margin-bottom: var(--space-4);">Quick Links</h4>
-            <ul style="list-style: none; padding: 0;">
-              <li style="margin-bottom: var(--space-2);"><a href="#pricing" style="color: var(--color-primary); text-decoration: none; font-size: var(--text-sm);">View Pricing & Plans →</a></li>
-              <li style="margin-bottom: var(--space-2);"><a href="#features" style="color: var(--color-primary); text-decoration: none; font-size: var(--text-sm);">Explore Features →</a></li>
-              <li style="margin-bottom: var(--space-2);"><a href="#how-it-works" style="color: var(--color-primary); text-decoration: none; font-size: var(--text-sm);">See How It Works →</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-</div>
+  </div>
+</section>
 
 </main>
 
-<!-- ============ FOOTER ============ -->
-<footer class="footer" role="contentinfo">
-  <div class="container">
-    <div class="footer__grid">
-      <div class="footer__brand">
-        <a href="#home" class="header__logo" aria-label="SEOContent.ai home" style="margin-bottom: var(--space-2);">
-          <svg width="28" height="28" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect width="36" height="36" rx="8" fill="currentColor" opacity="0.08"/>
-            <path d="M7 11h4v2H9v2h2v2H7v-6z" fill="var(--color-primary)"/>
-            <path d="M12 11h4v2h-2v2h2v2h-4v-6z" fill="var(--color-primary)" opacity="0.7"/>
-            <path d="M17 11h4v6h-4v-2h2v-2h-2v-2z" fill="var(--color-primary)" opacity="0.5"/>
-            <circle cx="27" cy="14" r="5" stroke="var(--color-primary)" stroke-width="2" fill="none"/>
-            <line x1="30.5" y1="18" x2="33" y2="20.5" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-          SEOContent<span style="color: var(--color-primary);">.ai</span>
-        </a>
-        <p>AI-powered SEO content generation platform. Create optimized articles, product reviews, and authority content in 60 seconds.</p>
-      </div>
-      <div>
-        <h3 class="footer__col-title">Product</h3>
-        <ul class="footer__links" role="list">
-          <li><a href="#features">Features</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#how-it-works">How It Works</a></li>
-          <li><a href="#use-cases">Use Cases</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="footer__col-title">Company</h3>
-        <ul class="footer__links" role="list">
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="/cdn-cgi/l/email-protection#41323431312e33350132242e222e2f35242f356f2028">Support</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="footer__col-title">Resources</h3>
-        <ul class="footer__links" role="list">
-          <li><a href="#pricing">API Documentation</a></li>
-          <li><a href="#pricing">FAQ</a></li>
-          <li><a href="#contact">Partnership</a></li>
-        </ul>
-      </div>
+<footer class="foot">
+  <div class="container foot__grid">
+    <div>
+      <a href="./" class="brand">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="24" height="24"><rect width="32" height="32" rx="8" fill="#6366f1"/><path d="M8 22l4-10 4 6 3-4 5 8H8z" fill="#fff"/></svg>
+        </span>
+        <span class="brand__name">Tech<span>Prospect</span></span>
+      </a>
+      <p class="foot__tag" data-editable="rich">Prospecção com IA que fecha negócios. Um produto TechSites.</p>
     </div>
-    <div class="footer__bottom">
-      <p>&copy; 2026 SEOContent.ai. All rights reserved.</p>
-      <div style="display: flex; gap: var(--space-4); align-items: center; flex-wrap: wrap;">
-        <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
-      </div>
+    <div>
+      <h4>Produto</h4>
+      <ul>
+        <li><a href="./como-funciona.html">Como funciona</a></li>
+        <li><a href="./recursos.html">Recursos</a></li>
+        <li><a href="./planos.html">Planos</a></li>
+        <li><a href="./cases.html">Cases</a></li>
+      </ul>
     </div>
+    <div>
+      <h4>Empresa</h4>
+      <ul>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="./termos.html">Termos</a></li>
+        <li><a href="./privacidade.html">Privacidade</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container foot__bottom">
+    <span>© <span id="year"></span> TechProspect · TechSites</span>
+    <span>Feito com IA no Brasil 🇧🇷</span>
   </div>
 </footer>
 
-<!-- JavaScript -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./app.js" defer></script>
+<script src="./assets/js/app.js" defer></script>
+<script src="./assets/js/techsites-editor.js?v=2.0" defer></script>
 
+<!-- wysiwyg-save-smoke: 2026-04-18T16:40:37.863839+00:00 -->
 </body>
 </html>
